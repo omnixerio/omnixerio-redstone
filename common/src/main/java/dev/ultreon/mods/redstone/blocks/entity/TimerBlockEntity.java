@@ -2,12 +2,14 @@ package dev.ultreon.mods.redstone.blocks.entity;
 
 import dev.ultreon.mods.redstone.init.ModBlockEntityTypes;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 
 import static dev.ultreon.mods.redstone.blocks.TimerBlock.DELAY;
+import static dev.ultreon.mods.redstone.blocks.TimerBlock.FACING;
 import static dev.ultreon.mods.redstone.blocks.TimerBlock.POWERED;
 
 public class TimerBlockEntity extends BlockEntity {
@@ -24,13 +26,27 @@ public class TimerBlockEntity extends BlockEntity {
     public void tick() {
         if (level == null || level.isClientSide()) return;
 
-        timerTicks++;
         BlockState state = getBlockState();
+        Direction facing = state.getValue(FACING);
+        boolean hasInput = level.getSignal(worldPosition.relative(facing), facing) > 0;
+
+        if (!hasInput) {
+            timerTicks = 0;
+            if (state.getValue(POWERED)) {
+                level.setBlock(worldPosition, state.setValue(POWERED, false), Block.UPDATE_ALL);
+            }
+            return;
+        }
+
+        timerTicks++;
         int delay = state.getValue(DELAY) * 2;
 
         if (timerTicks >= delay) {
             timerTicks = 0;
             level.setBlock(worldPosition, state.cycle(POWERED), Block.UPDATE_ALL);
         }
+    }
+
+    public void getBlockPosS() {
     }
 }

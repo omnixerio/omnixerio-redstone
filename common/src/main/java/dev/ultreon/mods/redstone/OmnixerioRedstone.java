@@ -1,5 +1,8 @@
 package dev.ultreon.mods.redstone;
 
+import dev.architectury.utils.Env;
+import dev.architectury.utils.EnvExecutor;
+import dev.ultreon.mods.redstone.client.OmnixerioRedstoneClient;
 import dev.ultreon.mods.redstone.init.ModBlockEntityTypes;
 import dev.ultreon.mods.redstone.init.ModBlocks;
 import dev.ultreon.mods.redstone.init.ModCreativeTabs;
@@ -17,6 +20,8 @@ public final class OmnixerioRedstone {
         ModBlockEntityTypes.init();
         ModItems.init();
         ModCreativeTabs.init();
+
+        EnvExecutor.runInEnv(Env.CLIENT, () -> () -> OmnixerioRedstoneClient.init());
     }
 
     public static Identifier id(String path) {

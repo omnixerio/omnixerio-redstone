@@ -56,11 +56,7 @@ public class TimerBlock extends DiodeBlock implements EntityBlock {
 
     @Override
     protected boolean shouldTurnOn(Level level, BlockPos pos, BlockState state) {
-        return true;
-    }
-
-    @Override
-    protected void checkTickOnNeighbor(Level level, BlockPos pos, BlockState state) {
+        return this.getInputSignal(level, pos, state) > 0;
     }
 
     @Override
