@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "omnixerio-redstone"
+version = "${version}"
+displayName = "omnixerio-redstone"
+authors = "Omnixerio Studios"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.omnixerio-redstone]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.omnixerio-redstone]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.omnixerio-redstone]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[mixins]]
+config = "omnixerio-redstone.mixins.json"
