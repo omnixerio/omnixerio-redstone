@@ -16,21 +16,21 @@ description = '''
 [[dependencies.omnixerio-redstone]]
 modId = "neoforge"
 type = "required"
-versionRange = "[21,)"
+versionRange = "[26.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.omnixerio-redstone]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.1,)"
+versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.omnixerio-redstone]]
 modId = "architectury"
 type = "required"
-versionRange = "[13.0.8,)"
+versionRange = "[21.0.0,)"
 ordering = "AFTER"
 side = "BOTH"
 

@@ -15,10 +15,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.ultreon.mods.omnixerioRedstone.fabric.OmnixerioRedstoneFabric"
+      "dev.ultreon.mods.redstone.fabric.OmnixerioRedstoneFabric"
     ],
     "client": [
-      "dev.ultreon.mods.omnixerioRedstone.fabric.client.OmnixerioRedstoneFabricClient"
+      "dev.ultreon.mods.redstone.fabric.client.OmnixerioRedstoneFabricClient"
     ]
   },
   "mixins": [
@@ -26,9 +26,9 @@
   ],
   "depends": {
     "fabricloader": ">=0.19.3",
-    "minecraft": "~1.21.1",
-    "java": ">=21",
-    "architectury": ">=13.0.8",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "architectury": ">=21.0.0",
     "fabric-api": "*"
   },
   "suggests": {

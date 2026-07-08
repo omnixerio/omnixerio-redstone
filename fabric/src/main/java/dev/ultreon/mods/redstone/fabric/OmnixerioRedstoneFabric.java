@@ -1,6 +1,6 @@
-package dev.ultreon.mods.omnixerioRedstone.fabric;
+package dev.ultreon.mods.redstone.fabric;
 
-import dev.ultreon.mods.omnixerioRedstone.OmnixerioRedstone;
+import dev.ultreon.mods.redstone.OmnixerioRedstone;
 import net.fabricmc.api.ModInitializer;
 
 public final class OmnixerioRedstoneFabric implements ModInitializer {

@@ -1,4 +1,4 @@
-package dev.ultreon.mods.omnixerioRedstone.fabric.client;
+package dev.ultreon.mods.redstone.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
