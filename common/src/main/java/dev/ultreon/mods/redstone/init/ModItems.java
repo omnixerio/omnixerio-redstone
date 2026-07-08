@@ -15,6 +15,9 @@ public class ModItems {
     private static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(OmnixerioRedstone.MOD_ID, Registries.ITEM);
 
     public static final RegistrySupplier<BlockItem> TIMER = registerBlockItem("timer", ModBlocks.TIMER, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> AND_GATE = registerBlockItem("and_gate", ModBlocks.AND_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> OR_GATE = registerBlockItem("or_gate", ModBlocks.OR_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> XOR_GATE = registerBlockItem("xor_gate", ModBlocks.XOR_GATE, new Item.Properties());
 
     private static <T extends Item> RegistrySupplier<T> register(String name, Item.Properties properties, Function<Item.Properties, T> supplier) {
         return REGISTRY.register(name, () -> supplier.apply(properties.setId(ResourceKey.create(Registries.ITEM, OmnixerioRedstone.id(name)))));

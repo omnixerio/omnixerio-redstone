@@ -19,6 +19,9 @@ public class ModCreativeTabs {
 
     private static void creativeTabItems(CreativeModeTab.ItemDisplayParameters parameters, CreativeModeTab.Output output) {
         output.accept(ModItems.TIMER.get());
+        output.accept(ModItems.AND_GATE.get());
+        output.accept(ModItems.OR_GATE.get());
+        output.accept(ModItems.XOR_GATE.get());
     }
 
     public static void init() {
