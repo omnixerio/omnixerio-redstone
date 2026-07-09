@@ -4,30 +4,30 @@ loaderVersion = "[2,)"
 license = "All Rights Reserved"
 
 [[mods]]
-modId = "omnixerio-redstone"
+modId = "omnixerio_redstone"
 version = "${version}"
-displayName = "omnixerio-redstone"
+displayName = "Omnixerio Redstone"
 authors = "Omnixerio Studios"
 description = '''
 
 '''
 #logoFile = ""
 
-[[dependencies.omnixerio-redstone]]
+[[dependencies.omnixerio_redstone]]
 modId = "neoforge"
 type = "required"
 versionRange = "[26.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.omnixerio-redstone]]
+[[dependencies.omnixerio_redstone]]
 modId = "minecraft"
 type = "required"
 versionRange = "26.2"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.omnixerio-redstone]]
+[[dependencies.omnixerio_redstone]]
 modId = "architectury"
 type = "required"
 versionRange = "[21.0.0,)"

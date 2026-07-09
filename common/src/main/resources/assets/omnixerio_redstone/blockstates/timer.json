@@ -1,0 +1,604 @@
+{
+  "variants": {
+    "delay=1,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=1,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=1,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=1,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=1,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=1,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=1,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=1,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=2,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=2,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=2,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=2,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=2,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=2,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=2,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=2,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=3,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=3,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=3,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=3,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=3,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=3,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=3,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=3,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=4,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=4,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=4,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=4,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=4,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=4,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=4,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=4,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=5,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=5,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=5,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=5,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=5,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=5,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=5,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=5,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=6,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=6,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=6,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=6,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=6,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=6,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=6,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=6,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=7,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=7,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=7,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=7,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=7,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=7,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=7,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=7,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=8,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=8,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=8,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=8,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=8,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=8,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=8,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=8,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=9,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=9,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=9,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=9,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=9,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=9,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=9,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=9,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=10,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=10,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=10,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=10,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=10,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=10,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=10,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=10,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=11,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=11,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=11,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=11,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=11,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=11,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=11,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=11,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=12,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=12,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=12,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=12,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=12,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=12,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=12,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=12,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=13,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=13,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=13,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=13,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=13,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=13,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=13,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=13,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=14,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=14,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=14,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=14,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=14,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=14,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=14,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=14,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=15,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=15,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=15,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=15,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=15,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=15,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=15,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=15,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=16,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=16,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=16,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=16,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=16,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=16,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=16,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=16,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=17,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=17,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=17,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=17,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=17,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=17,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=17,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=17,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=18,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=18,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=18,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=18,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=18,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=18,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=18,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=18,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=19,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=19,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=19,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=19,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=19,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=19,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=19,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=19,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    },
+    "delay=20,facing=east,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 270
+    },
+    "delay=20,facing=east,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 270
+    },
+    "delay=20,facing=north,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 180
+    },
+    "delay=20,facing=north,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 180
+    },
+    "delay=20,facing=south,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off"
+    },
+    "delay=20,facing=south,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on"
+    },
+    "delay=20,facing=west,powered=false": {
+      "model": "omnixerio_redstone:block/timer_off",
+      "y": 90
+    },
+    "delay=20,facing=west,powered=true": {
+      "model": "omnixerio_redstone:block/timer_on",
+      "y": 90
+    }
+  }
+}

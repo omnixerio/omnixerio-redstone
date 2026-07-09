@@ -35,6 +35,7 @@ dependencies {
     neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
 
     implementation "dev.architectury:architectury-neoforge:$rootProject.architectury_api_version"
+    implementation "maven.modrinth:bVhjlnnv:qS1GIQSY"
 
     common(project(path: ':common')) { transitive false }
     shadowCommon project(path: ':common', configuration: 'transformProductionNeoForge')

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "omnixerio-redstone",
+  "id": "omnixerio_redstone",
   "version": "${version}",
-  "name": "omnixerio-redstone",
+  "name": "Omnixerio Redstone",
   "description": "",
   "authors": [
     "Omnixerio Studios"

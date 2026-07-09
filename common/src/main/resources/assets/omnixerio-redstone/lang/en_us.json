@@ -1,6 +1,0 @@
-{
-  "block.omnixerio-redstone.timer": "Timer",
-  "block.omnixerio-redstone.and_gate": "AND Gate",
-  "block.omnixerio-redstone.or_gate": "OR Gate",
-  "block.omnixerio-redstone.xor_gate": "XOR Gate"
-}

@@ -10,7 +10,7 @@ import dev.ultreon.mods.redstone.init.ModItems;
 import net.minecraft.resources.Identifier;
 
 public final class OmnixerioRedstone {
-    public static final String MOD_ID = "omnixerio-redstone";
+    public static final String MOD_ID = "omnixerio_redstone";
 
     public static void init() {
         // Write common init code here.
@@ -21,7 +21,7 @@ public final class OmnixerioRedstone {
         ModItems.init();
         ModCreativeTabs.init();
 
-        EnvExecutor.runInEnv(Env.CLIENT, () -> () -> OmnixerioRedstoneClient.init());
+        EnvExecutor.runInEnv(Env.CLIENT, () -> OmnixerioRedstoneClient::init);
     }
 
     public static Identifier id(String path) {

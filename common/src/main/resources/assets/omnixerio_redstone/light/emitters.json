@@ -1,0 +1,18 @@
+{
+  "omnixerio_redstone:black_redstone_lamp": "#101010",
+  "omnixerio_redstone:blue_redstone_lamp": "#0000FF",
+  "omnixerio_redstone:brown_redstone_lamp": "#A52A2A",
+  "omnixerio_redstone:cyan_redstone_lamp": "#00FFFF",
+  "omnixerio_redstone:gray_redstone_lamp": "#808080",
+  "omnixerio_redstone:green_redstone_lamp": "#008000",
+  "omnixerio_redstone:light_blue_redstone_lamp": "#ADD8E6",
+  "omnixerio_redstone:light_gray_redstone_lamp": "#D3D3D3",
+  "omnixerio_redstone:lime_redstone_lamp": "#00FF00",
+  "omnixerio_redstone:magenta_redstone_lamp": "#FF00FF",
+  "omnixerio_redstone:orange_redstone_lamp": "#FF8000",
+  "omnixerio_redstone:pink_redstone_lamp": "#FFC0CB",
+  "omnixerio_redstone:purple_redstone_lamp": "#800080",
+  "omnixerio_redstone:red_redstone_lamp": "#FF0000",
+  "omnixerio_redstone:white_redstone_lamp": "#FFFFFF",
+  "omnixerio_redstone:yellow_redstone_lamp": "#FFFF00"
+}
