@@ -11,7 +11,7 @@ authors = "Omnixerio Studios"
 description = '''
 
 '''
-#logoFile = ""
+logoFile = "omnixerio_redstone.png"
 
 [[dependencies.omnixerio_redstone]]
 modId = "neoforge"
