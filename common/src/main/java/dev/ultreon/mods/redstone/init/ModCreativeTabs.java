@@ -24,6 +24,14 @@ public class ModCreativeTabs {
         output.accept(ModItems.XOR_GATE.get());
         output.accept(ModItems.SWITCH.get());
         output.accept(ModItems.NAND_GATE.get());
+        output.accept(ModItems.SR_LATCH.get());
+        output.accept(ModItems.D_FLIP_FLOP.get());
+        output.accept(ModItems.JK_FLIP_FLOP.get());
+        output.accept(ModItems.NOT_GATE.get());
+        output.accept(ModItems.NOR_GATE.get());
+        output.accept(ModItems.XNOR_GATE.get());
+        output.accept(ModItems.PULSE_GENERATOR.get());
+        output.accept(ModItems.PULSE_EXTENDER.get());
         output.accept(ModItems.WHITE_REDSTONE_LAMP.get());
         output.accept(ModItems.ORANGE_REDSTONE_LAMP.get());
         output.accept(ModItems.MAGENTA_REDSTONE_LAMP.get());

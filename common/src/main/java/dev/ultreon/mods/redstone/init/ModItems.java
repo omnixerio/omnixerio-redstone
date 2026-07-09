@@ -20,6 +20,14 @@ public class ModItems {
     public static final RegistrySupplier<BlockItem> XOR_GATE = registerBlockItem("xor_gate", ModBlocks.XOR_GATE, new Item.Properties());
     public static final RegistrySupplier<BlockItem> SWITCH = registerBlockItem("switch", ModBlocks.SWITCH, new Item.Properties());
     public static final RegistrySupplier<BlockItem> NAND_GATE = registerBlockItem("nand_gate", ModBlocks.NAND_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> SR_LATCH = registerBlockItem("sr_latch", ModBlocks.SR_LATCH, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> D_FLIP_FLOP = registerBlockItem("d_flip_flop", ModBlocks.D_FLIP_FLOP, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> JK_FLIP_FLOP = registerBlockItem("jk_flip_flop", ModBlocks.JK_FLIP_FLOP, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> NOT_GATE = registerBlockItem("not_gate", ModBlocks.NOT_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> NOR_GATE = registerBlockItem("nor_gate", ModBlocks.NOR_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> XNOR_GATE = registerBlockItem("xnor_gate", ModBlocks.XNOR_GATE, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> PULSE_GENERATOR = registerBlockItem("pulse_generator", ModBlocks.PULSE_GENERATOR, new Item.Properties());
+    public static final RegistrySupplier<BlockItem> PULSE_EXTENDER = registerBlockItem("pulse_extender", ModBlocks.PULSE_EXTENDER, new Item.Properties());
     public static final RegistrySupplier<BlockItem> WHITE_REDSTONE_LAMP = registerBlockItem("white_redstone_lamp", ModBlocks.WHITE_REDSTONE_LAMP, new Item.Properties());
     public static final RegistrySupplier<BlockItem> ORANGE_REDSTONE_LAMP = registerBlockItem("orange_redstone_lamp", ModBlocks.ORANGE_REDSTONE_LAMP, new Item.Properties());
     public static final RegistrySupplier<BlockItem> MAGENTA_REDSTONE_LAMP = registerBlockItem("magenta_redstone_lamp", ModBlocks.MAGENTA_REDSTONE_LAMP, new Item.Properties());

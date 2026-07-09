@@ -14,6 +14,26 @@
   "block.omnixerio_redstone.nand_gate": "NAND Gate",
   "item.omnixerio_redstone.nand_gate": "NAND Gate",
 
+  "block.omnixerio_redstone.sr_latch": "SR Latch",
+  "block.omnixerio_redstone.d_flip_flop": "D Flip-Flop",
+  "block.omnixerio_redstone.jk_flip_flop": "JK Flip-Flop",
+
+  "item.omnixerio_redstone.sr_latch": "SR Latch",
+  "item.omnixerio_redstone.d_flip_flop": "D Flip-Flop",
+  "item.omnixerio_redstone.jk_flip_flop": "JK Flip-Flop",
+
+  "block.omnixerio_redstone.not_gate": "NOT Gate",
+  "block.omnixerio_redstone.nor_gate": "NOR Gate",
+  "block.omnixerio_redstone.xnor_gate": "XNOR Gate",
+  "block.omnixerio_redstone.pulse_generator": "Pulse Generator",
+  "block.omnixerio_redstone.pulse_extender": "Pulse Extender",
+
+  "item.omnixerio_redstone.not_gate": "NOT Gate",
+  "item.omnixerio_redstone.nor_gate": "NOR Gate",
+  "item.omnixerio_redstone.xnor_gate": "XNOR Gate",
+  "item.omnixerio_redstone.pulse_generator": "Pulse Generator",
+  "item.omnixerio_redstone.pulse_extender": "Pulse Extender",
+
   "block.omnixerio_redstone.white_redstone_lamp": "White Redstone Lamp",
   "block.omnixerio_redstone.orange_redstone_lamp": "Orange Redstone Lamp",
   "block.omnixerio_redstone.magenta_redstone_lamp": "Magenta Redstone Lamp",
