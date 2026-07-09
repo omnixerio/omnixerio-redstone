@@ -1,10 +1,23 @@
 plugins {
-    id 'com.github.johnrengelman.shadow'
+    id 'com.gradleup.shadow'
 }
 
 architectury {
     platformSetupLoomIde()
     fabric()
+}
+
+fabricApi.configureDataGeneration {
+    client = true
+    outputDirectory = project(":common").file("src/main/generated")
+}
+
+loom {
+    mods {
+        register("omnixerio_building") {
+            sourceSet("main")
+        }
+    }
 }
 
 configurations {
@@ -30,6 +43,7 @@ dependencies {
     implementation "net.fabricmc.fabric-api:fabric-api:$rootProject.fabric_api_version"
 
     implementation "dev.architectury:architectury-fabric:$rootProject.architectury_api_version"
+    api "me.shedaniel:RoughlyEnoughItems-fabric:26.2.820"
 
     common(project(path: ':common')) { transitive false }
     shadowCommon project(path: ':common', configuration: 'transformProductionFabric')
@@ -49,10 +63,12 @@ jar {
 
 shadowJar {
     dependsOn(jar)
-    mainSpec.sourcePaths.clear()       // Remove default source set inclusion
-    from(zipTree(jar.archiveFile))     // Unpack jar output (preserves Loom modifications)
+    from(jar)
 
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier = null           // shadowJar becomes the main artifact
-    from rootProject.file("LICENSE.md")
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    archiveClassifier = null
+    from rootProject.file("LICENSE")
 }
+
+tasks.build.dependsOn(shadowJar)

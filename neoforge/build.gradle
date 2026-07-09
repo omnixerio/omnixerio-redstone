@@ -1,5 +1,5 @@
 plugins {
-    id 'com.github.johnrengelman.shadow'
+    id 'com.gradleup.shadow'
 }
 
 architectury {
@@ -35,7 +35,7 @@ dependencies {
     neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
 
     implementation "dev.architectury:architectury-neoforge:$rootProject.architectury_api_version"
-    implementation "maven.modrinth:bVhjlnnv:qS1GIQSY"
+    api "me.shedaniel:RoughlyEnoughItems-neoforge:26.2.820"
 
     common(project(path: ':common')) { transitive false }
     shadowCommon project(path: ':common', configuration: 'transformProductionNeoForge')
@@ -55,10 +55,11 @@ jar {
 
 shadowJar {
     dependsOn(jar)
-    mainSpec.sourcePaths.clear()       // Remove default source set inclusion
-    from(zipTree(jar.archiveFile))     // Unpack jar output (preserves Loom modifications)
+    from(zipTree(jar.archiveFile))
 
     configurations = [project.configurations.shadowCommon]
-    archiveClassifier = null           // shadowJar becomes the main artifact
-    from rootProject.file("LICENSE.md")
+    archiveClassifier = null
+    from rootProject.file("LICENSE")
 }
+
+tasks.build.dependsOn(shadowJar)

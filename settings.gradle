@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'omnixerio-redstone'
+rootProject.name = 'omnixerio-building'
 
 include 'common'
 include 'fabric'
