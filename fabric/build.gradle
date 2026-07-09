@@ -14,7 +14,7 @@ fabricApi.configureDataGeneration {
 
 loom {
     mods {
-        register("omnixerio_building") {
+        register("omnixerio_redstone") {
             sourceSet("main")
         }
     }

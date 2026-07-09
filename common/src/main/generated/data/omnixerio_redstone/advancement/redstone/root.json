@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "has_crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "omnixerio_redstone:gui/advancement_background",
+    "description": "Install Omnixerio Redstone",
+    "icon": {
+      "id": "minecraft:redstone"
+    },
+    "show_toast": false,
+    "title": "Omnixerio Redstone"
+  },
+  "requirements": [
+    [
+      "has_crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

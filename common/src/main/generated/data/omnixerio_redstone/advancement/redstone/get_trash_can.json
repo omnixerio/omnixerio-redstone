@@ -1,0 +1,29 @@
+{
+  "parent": "omnixerio_redstone:redstone/root",
+  "criteria": {
+    "got_timer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "omnixerio_redstone:timer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "omnixerio_redstone:gui/advancement_background",
+    "description": "Create a Timer",
+    "icon": {
+      "id": "omnixerio_redstone:timer"
+    },
+    "title": "Timing!"
+  },
+  "requirements": [
+    [
+      "got_timer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

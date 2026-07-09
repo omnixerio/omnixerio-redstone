@@ -1,0 +1,29 @@
+{
+  "parent": "omnixerio_redstone:redstone/root",
+  "criteria": {
+    "got_not_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "omnixerio_redstone:not_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "omnixerio_redstone:gui/advancement_background",
+    "description": "Create a NOT Gate",
+    "icon": {
+      "id": "omnixerio_redstone:not_gate"
+    },
+    "title": "Not?"
+  },
+  "requirements": [
+    [
+      "got_not_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

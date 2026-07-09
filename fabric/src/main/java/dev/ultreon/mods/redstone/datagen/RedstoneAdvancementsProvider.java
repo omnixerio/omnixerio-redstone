@@ -39,7 +39,7 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 )
                 .addCriterion("has_crafting_table", InventoryChangeTrigger.TriggerInstance.hasItems(Items.CRAFTING_TABLE))
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/root"));
+                .save(consumer, OmnixerioRedstone.id("redstone/root"));
 
         Advancement.Builder.advancement()
                 .display(
@@ -56,7 +56,7 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_switch", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.SWITCH.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/get_switch"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_switch"));
 
         Advancement.Builder.advancement()
                 .display(
@@ -73,7 +73,7 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_timer", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.TIMER.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/get_trash_can"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_trash_can"));
 
         HolderLookup.RegistryLookup<Item> items = registryLookup.lookup(Registries.ITEM).get();
         Advancement.Builder.advancement()
@@ -91,7 +91,7 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_not_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.NOT_GATE.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/get_table"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_table"));
         Advancement.Builder.advancement()
                 .display(
                         ModItems.OR_GATE.get(), // The display icon
@@ -107,7 +107,7 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_or_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.OR_GATE.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/get_or_gate"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_or_gate"));
         Advancement.Builder.advancement()
                 .display(
                         ModItems.OR_GATE.get(), // The display icon
@@ -123,6 +123,6 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_and_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.AND_GATE.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("building/get_or_gate"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_or_gate"));
     }
 }

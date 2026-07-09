@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "omnixerio_redstone:yellow_redstone_lamp"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

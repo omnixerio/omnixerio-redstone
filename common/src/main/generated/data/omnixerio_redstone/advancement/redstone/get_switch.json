@@ -1,0 +1,29 @@
+{
+  "parent": "omnixerio_redstone:redstone/root",
+  "criteria": {
+    "got_switch": {
+      "conditions": {
+        "items": [
+          {
+            "items": "omnixerio_redstone:switch"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "omnixerio_redstone:gui/advancement_background",
+    "description": "Create a switch",
+    "icon": {
+      "id": "omnixerio_redstone:switch"
+    },
+    "title": "Switcheroo"
+  },
+  "requirements": [
+    [
+      "got_switch"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

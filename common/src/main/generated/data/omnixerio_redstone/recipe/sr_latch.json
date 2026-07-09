@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "crc",
+    "ppp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:sr_latch"
+  }
+}

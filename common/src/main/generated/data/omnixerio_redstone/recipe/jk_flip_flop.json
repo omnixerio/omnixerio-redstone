@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    " g ",
+    "grg",
+    "ppp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:jk_flip_flop"
+  }
+}

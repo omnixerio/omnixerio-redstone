@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "l": "minecraft:lever",
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "rlr",
+    "ppp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:switch"
+  }
+}

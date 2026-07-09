@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone",
+    "t": "minecraft:redstone_torch"
+  },
+  "pattern": [
+    " t ",
+    "ttt",
+    "prp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:nand_gate"
+  }
+}

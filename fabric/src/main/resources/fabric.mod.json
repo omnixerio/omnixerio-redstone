@@ -11,7 +11,7 @@
     "homepage": "https://ultreon.dev"
   },
   "license": "All-Rights-Reserved",
-  "icon": "assets/omnixerio-redstone/icon.png",
+  "icon": "assets/omnixerio_redstone/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -19,6 +19,9 @@
     ],
     "client": [
       "dev.ultreon.mods.redstone.fabric.client.OmnixerioRedstoneFabricClient"
+    ],
+    "fabric-datagen": [
+      "dev.ultreon.mods.redstone.datagen.RedstoneDataGenerator"
     ]
   },
   "mixins": [

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:redstone_lamp",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:white_redstone_lamp"
+  }
+}

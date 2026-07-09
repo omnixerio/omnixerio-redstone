@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": "minecraft:clock",
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "rcr",
+    "ppp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:timer"
+  }
+}

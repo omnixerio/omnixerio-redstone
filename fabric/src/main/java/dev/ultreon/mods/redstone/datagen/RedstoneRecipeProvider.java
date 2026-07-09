@@ -85,7 +85,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
             shaped(RecipeCategory.MISC, ModItems.XOR_GATE.get(), 1)
                     .pattern(" r ")
                     .pattern("rrr")
-                    .pattern("prp")
+                    .pattern("ptp")
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
@@ -165,81 +165,97 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
             shapeless(RecipeCategory.MISC, ModItems.WHITE_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.white())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.ORANGE_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.orange())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.MAGENTA_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.magenta())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.LIGHT_BLUE_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.lightBlue())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.YELLOW_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.yellow())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.LIME_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.lime())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.PINK_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.pink())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.GRAY_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.gray())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.LIGHT_GRAY_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.lightGray())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.CYAN_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.cyan())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.PURPLE_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.purple())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.BLUE_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.blue())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.BROWN_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.brown())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.GREEN_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.green())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.RED_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.red())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
             shapeless(RecipeCategory.MISC, ModItems.BLACK_REDSTONE_LAMP.get(), 1)
                     .requires(Items.REDSTONE_LAMP)
                     .requires(Items.DYE.black())
+                    .unlockedBy("has_redstone_lamp", hasItems(Items.REDSTONE_LAMP))
                     .save(output);
 
     }

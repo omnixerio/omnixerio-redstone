@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": "minecraft:copper_ingot",
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    " r ",
+    " c ",
+    "ppp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:pulse_extender"
+  }
+}

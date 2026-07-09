@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "p": "minecraft:stone",
+    "r": "minecraft:redstone",
+    "t": "minecraft:redstone_torch"
+  },
+  "pattern": [
+    " r ",
+    "rrr",
+    "ptp"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:xor_gate"
+  }
+}

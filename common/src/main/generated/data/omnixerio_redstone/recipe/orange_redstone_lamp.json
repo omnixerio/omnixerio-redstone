@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:redstone_lamp",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "omnixerio_redstone:orange_redstone_lamp"
+  }
+}
