@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricAdvancementProvider;
 import net.minecraft.advancements.Advancement;
 import net.minecraft.advancements.AdvancementHolder;
 import net.minecraft.advancements.AdvancementType;
-import net.minecraft.advancements.predicates.ItemPredicate;
 import net.minecraft.advancements.triggers.InventoryChangeTrigger;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -38,7 +37,6 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         false // Hide it in the advancement tab until it's achieved
                 )
                 .addCriterion("has_crafting_table", InventoryChangeTrigger.TriggerInstance.hasItems(Items.CRAFTING_TABLE))
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/root"));
 
         Advancement.Builder.advancement()
@@ -52,10 +50,8 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         true, // Announce it to chat
                         false // Hide it in the advancement tab until it's achieved
                 )
-                // "got_dirt" is the name referenced by other advancements when they want to have "requirements."
                 .addCriterion("got_switch", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.SWITCH.get()))
                 .parent(root)
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/get_switch"));
 
         Advancement.Builder.advancement()
@@ -69,10 +65,8 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         true, // Announce it to chat
                         false // Hide it in the advancement tab until it's achieved
                 )
-                // "got_dirt" is the name referenced by other advancements when they want to have "requirements."
                 .addCriterion("got_timer", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.TIMER.get()))
                 .parent(root)
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/get_trash_can"));
 
         HolderLookup.RegistryLookup<Item> items = registryLookup.lookup(Registries.ITEM).get();
@@ -87,10 +81,8 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         true, // Announce it to chat
                         false // Hide it in the advancement tab until it's achieved
                 )
-                // "got_dirt" is the name referenced by other advancements when they want to have "requirements."
                 .addCriterion("got_not_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.NOT_GATE.get()))
                 .parent(root)
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/get_table"));
         Advancement.Builder.advancement()
                 .display(
@@ -103,10 +95,8 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         true, // Announce it to chat
                         false // Hide it in the advancement tab until it's achieved
                 )
-                // "got_dirt" is the name referenced by other advancements when they want to have "requirements."
                 .addCriterion("got_or_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.OR_GATE.get()))
                 .parent(root)
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/get_or_gate"));
         Advancement.Builder.advancement()
                 .display(
@@ -119,10 +109,8 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                         true, // Announce it to chat
                         false // Hide it in the advancement tab until it's achieved
                 )
-                // "got_dirt" is the name referenced by other advancements when they want to have "requirements."
                 .addCriterion("got_and_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.AND_GATE.get()))
                 .parent(root)
-                // Give the advancement an id
                 .save(consumer, OmnixerioRedstone.id("redstone/get_and_gate"));
     }
 }

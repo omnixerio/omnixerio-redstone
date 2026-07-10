@@ -59,7 +59,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .pattern("ppp")
                     .define('r', Items.REDSTONE)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_oak_log", hasItems(Items.STRIPPED_OAK_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.AND_GATE.get(), 1)
@@ -69,7 +69,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_birch_log", hasItems(Items.STRIPPED_BIRCH_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.NAND_GATE.get(), 1)
@@ -79,7 +79,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_birch_log", hasItems(Items.STRIPPED_BIRCH_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.XOR_GATE.get(), 1)
@@ -89,7 +89,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_birch_log", hasItems(Items.STRIPPED_BIRCH_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.XNOR_GATE.get(), 1)
@@ -99,7 +99,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_spruce_log", hasItems(Items.STRIPPED_SPRUCE_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.NOT_GATE.get(), 1)
@@ -109,7 +109,17 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('t', Items.REDSTONE_TORCH)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_spruce_log", hasItems(Items.STRIPPED_SPRUCE_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
+                    .save(output);
+
+            shaped(RecipeCategory.MISC, ModItems.NOR_GATE.get(), 1)
+                    .pattern(" r ")
+                    .pattern("rtr")
+                    .pattern("ppp")
+                    .define('r', Items.REDSTONE)
+                    .define('t', Items.REDSTONE_TORCH)
+                    .define('p', Items.STONE)
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             shaped(RecipeCategory.MISC, ModItems.PULSE_EXTENDER.get(), 1)
@@ -119,7 +129,7 @@ public class RedstoneRecipeProvider extends FabricRecipeProvider {
                     .define('r', Items.REDSTONE)
                     .define('c', Items.COPPER_INGOT)
                     .define('p', Items.STONE)
-                    .unlockedBy("has_stripped_spruce_log", hasItems(Items.STRIPPED_SPRUCE_LOG))
+                    .unlockedBy("has_redstone", hasItems(Items.REDSTONE))
                     .save(output);
 
             // Jungle

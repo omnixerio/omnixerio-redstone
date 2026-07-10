@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "omnixerio_redstone:xnor_gate"
+        "recipe": "omnixerio_redstone:nor_gate"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -26,7 +26,7 @@
   ],
   "rewards": {
     "recipes": [
-      "omnixerio_redstone:xnor_gate"
+      "omnixerio_redstone:nor_gate"
     ]
   }
 }
