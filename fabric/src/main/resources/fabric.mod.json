@@ -3,14 +3,14 @@
   "id": "omnixerio_redstone",
   "version": "${version}",
   "name": "Omnixerio Redstone",
-  "description": "",
+  "description": "Simple redstone extensions",
   "authors": [
     "Omnixerio Studios"
   ],
   "contact": {
     "homepage": "https://ultreon.dev"
   },
-  "license": "All-Rights-Reserved",
+  "license": "LGPL-2.1",
   "icon": "assets/omnixerio_redstone/icon.png",
   "environment": "*",
   "entrypoints": {
