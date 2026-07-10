@@ -35,6 +35,7 @@ public class TimerRenderer implements BlockEntityRenderer<TimerBlockEntity, Time
         BlockEntityRenderer.super.extractRenderState(blockEntity, state, partialTicks, cameraPosition, breakProgress);
 
         state.delay = blockEntity.getBlockState().getValue(TimerBlock.DELAY);
+        state.direction = blockEntity.getBlockState().getValue(TimerBlock.FACING);
     }
 
     @Override
@@ -42,7 +43,8 @@ public class TimerRenderer implements BlockEntityRenderer<TimerBlockEntity, Time
         poseStack.pushPose();
         poseStack.translate(.5f, 4 / 16f + 0.001f, .5f);
         poseStack.scale(1 / 24f, 1 / 16f, 1 / 24f);
-        poseStack.mulPose(new Quaternionf().rotateY((float) Math.toRadians(180)));
+        poseStack.mulPose(new Quaternionf().rotateY((float) Math.toRadians(-state.direction.toYRot())));
+        poseStack.translate(0, 0, 0f);
         poseStack.mulPose(new Quaternionf().rotateX((float) Math.toRadians(90)));
         FormattedCharSequence visualOrderText = Component.literal(String.valueOf(state.delay)).getVisualOrderText();
         float x = Minecraft.getInstance().font.width(visualOrderText);
