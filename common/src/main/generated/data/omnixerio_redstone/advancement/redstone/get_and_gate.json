@@ -1,0 +1,29 @@
+{
+  "parent": "omnixerio_redstone:redstone/root",
+  "criteria": {
+    "got_and_gate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "omnixerio_redstone:and_gate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "omnixerio_redstone:gui/advancement_background",
+    "description": "Create an AND Gate",
+    "icon": {
+      "id": "omnixerio_redstone:or_gate"
+    },
+    "title": "This And That"
+  },
+  "requirements": [
+    [
+      "got_and_gate"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

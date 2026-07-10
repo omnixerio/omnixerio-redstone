@@ -123,6 +123,6 @@ public class RedstoneAdvancementsProvider extends FabricAdvancementProvider {
                 .addCriterion("got_and_gate", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.AND_GATE.get()))
                 .parent(root)
                 // Give the advancement an id
-                .save(consumer, OmnixerioRedstone.id("redstone/get_or_gate"));
+                .save(consumer, OmnixerioRedstone.id("redstone/get_and_gate"));
     }
 }
